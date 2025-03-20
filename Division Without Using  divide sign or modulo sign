@@ -1,5 +1,5 @@
-# Algorithm for Division Without Using `/` or `%`
-# Pattern 1: Sliding Window
+> Algorithm for Division Without Using `/` or `%`
+
 ## **Approach**
 This algorithm divides two integers **without using** the division (`/`) or modulus (`%`) operators. Instead, it uses **bitwise left shifts (`<<`)** to optimize the process.
 
