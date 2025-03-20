@@ -1,6 +1,9 @@
 # Division Without Using `/` or `%`
 
-### Leetcode - https://leetcode.com/problems/divide-two-integers/?envType=problem-list-v2&envId=bit-manipulation
+## 🔹 Problem Statement  
+Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
+
+https://leetcode.com/problems/divide-two-integers/description/?envType=problem-list-v2&envId=bit-manipulation
 
 ## **Approach**
 This algorithm divides two integers **without using** the division (`/`) or modulus (`%`) operators. Instead, it uses **bitwise left shifts (`<<`)** to optimize the process.
