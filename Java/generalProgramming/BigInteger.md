@@ -40,6 +40,14 @@ System.out.println(a.divide(b));   // 4
 System.out.println(a.mod(b));      // 0 (100 % 25)
 ```
 
+## **Can We Use Normal Arithmetic Operators (`+`, `-`, `*`, `/`) with BigInteger?**
+No, you **cannot** use normal arithmetic operators like `+`, `-`, `*`, `/` with `BigInteger` in Java.
+
+### **Why?**
+- `BigInteger` is **immutable** and is a **class**, not a primitive type like `int` or `long`.
+- Java **does not support operator overloading** (unlike C++).
+- You must use **methods** instead of operators.
+
 ### 2. Power and GCD
 🔹 `pow(n)`, `gcd()`
 ```
