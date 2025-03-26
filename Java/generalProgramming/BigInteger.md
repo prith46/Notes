@@ -117,4 +117,71 @@ System.out.println(num.isProbablePrime(10)); // true
 - **Prime Number Generation** – Helps generate large prime numbers for secure key pairs.  
 - **Mathematical Research** – Assists in testing large prime numbers for various studies.  
 - **Efficient Primality Testing** – A faster alternative when exact primality tests are computationally expensive.  
-- **Random Prime Generation** – Generates prime numbers efficiently for security and cryptographic protocols.  
+- **Random Prime Generation** – Generates prime numbers efficiently for security and cryptographic protocols.
+
+# BigInteger Bit Manipulation in Java
+
+## 1️⃣ `testBit(int n)`
+
+Checks if the `n`-th bit (starting from 0) in the binary representation of a `BigInteger` is 1 or 0.
+
+- **Returns:** `true` if the bit is 1, otherwise `false`.
+
+### Example:
+```java
+import java.math.BigInteger;
+
+public class Main {
+    public static void main(String[] args) {
+        BigInteger num = new BigInteger("42"); // Binary: 101010
+
+        System.out.println(num.testBit(0)); // false (0th bit is 0)
+        System.out.println(num.testBit(1)); // true  (1st bit is 1)
+        System.out.println(num.testBit(3)); // true  (3rd bit is 1)
+    }
+}
+```
+
+---
+
+## 2️⃣ `setBit(int n)`
+
+Returns a new `BigInteger` with the `n`-th bit set to 1, keeping other bits unchanged.
+
+### Example:
+```java
+BigInteger num = new BigInteger("42"); // Binary: 101010
+BigInteger modified = num.setBit(0);   // Sets 0th bit to 1
+
+System.out.println(modified); // Output: 43 (Binary: 101011)
+```
+
+---
+
+## 3️⃣ `clearBit(int n)`
+
+Returns a new `BigInteger` with the `n`-th bit cleared (set to 0).
+
+### Example:
+```java
+BigInteger num = new BigInteger("43"); // Binary: 101011
+BigInteger modified = num.clearBit(0); // Clears 0th bit (sets it to 0)
+
+System.out.println(modified); // Output: 42 (Binary: 101010)
+```
+
+---
+
+## 4️⃣ `flipBit(int n)`
+
+Toggles (flips) the `n`-th bit (`0 → 1` or `1 → 0`).
+
+### Example:
+```java
+BigInteger num = new BigInteger("42"); // Binary: 101010
+BigInteger modified = num.flipBit(1);  // Flips 1st bit
+
+System.out.println(modified); // Output: 40 (Binary: 101000)
+```
+
+
