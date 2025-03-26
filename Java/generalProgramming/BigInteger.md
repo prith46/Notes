@@ -214,5 +214,17 @@ BigInteger shifted = num.shiftRight(2); // Right shift by 2
 System.out.println(shifted); // Output: 5 (Binary: 101)
 ```
 
+# BigInteger.ZERO, ONE, and TWO in Java  
 
+## 🔹 What are BigInteger.ZERO and BigInteger.ONE?  
+- `BigInteger.ZERO` → Represents `0`.  
+- `BigInteger.ONE` → Represents `1`.  
+- **Why use them?** Efficient, avoids object creation, improves readability.  
+
+## 🔹 BigInteger.TWO Doesn't Exist!  
+Java does not provide `BigInteger.TWO`, but you can use:  
+
+- ✅ `BigInteger.valueOf(2);` (**Best option**)  
+- ❌ `new BigInteger("2");` (Unnecessary object creation)  
+- ❌ `BigInteger.ONE.add(BigInteger.ONE);` (Avoidable)  
 
