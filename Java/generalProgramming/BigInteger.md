@@ -119,6 +119,8 @@ System.out.println(num.isProbablePrime(10)); // true
 - **Efficient Primality Testing** – A faster alternative when exact primality tests are computationally expensive.  
 - **Random Prime Generation** – Generates prime numbers efficiently for security and cryptographic protocols.
 
+---
+
 # BigInteger Bit Manipulation in Java
 
 ## 1️⃣ `testBit(int n)`
@@ -183,5 +185,34 @@ BigInteger modified = num.flipBit(1);  // Flips 1st bit
 
 System.out.println(modified); // Output: 40 (Binary: 101000)
 ```
+
+---
+
+## 5️⃣ `shiftLeft(int n)`
+
+Shifts the bits of the `BigInteger` left by `n` positions, equivalent to multiplying by `2^n`.
+
+### Example:
+```java
+BigInteger num = new BigInteger("5"); // Binary: 101
+BigInteger shifted = num.shiftLeft(2); // Left shift by 2
+
+System.out.println(shifted); // Output: 20 (Binary: 10100)
+```
+
+---
+
+## 6️⃣ `shiftRight(int n)`
+
+Shifts the bits of the `BigInteger` right by `n` positions, equivalent to integer division by `2^n`.
+
+### Example:
+```java
+BigInteger num = new BigInteger("20"); // Binary: 10100
+BigInteger shifted = num.shiftRight(2); // Right shift by 2
+
+System.out.println(shifted); // Output: 5 (Binary: 101)
+```
+
 
 
