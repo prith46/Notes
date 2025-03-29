@@ -74,6 +74,15 @@ public class Solution {
 ![image](https://github.com/user-attachments/assets/577a9646-4843-490c-ba48-2c06fd5380d9)
 ![image](https://github.com/user-attachments/assets/100772f7-835e-420a-8f53-71f7c6f61ddc)
 
+## Why `(position < 32)`
+
+![image](https://github.com/user-attachments/assets/52c54136-35d7-450e-a531-109b24fdaeb0)
+![image](https://github.com/user-attachments/assets/c9dedf9e-cd8a-45de-9958-b45382a5a905)
+
+>Use >>> for Zero-Fill:
+If you want to force 0s into the MSB, use >>> (but note this converts negatives to positives)
+
+>So, to prevent the loop running infinitely we need to use position < 32.
 ---
 
 ## 2. Optimised.
