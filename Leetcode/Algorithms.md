@@ -1,2 +1,5 @@
-![image](https://github.com/user-attachments/assets/d7d5a012-653b-459d-97de-fd5e5c28bf63)
-![image](https://github.com/user-attachments/assets/13522542-319f-4da9-94dc-bbe428e19b67)
+![image](https://github.com/user-attachments/assets/bc187a36-4696-4812-a78d-46dbeb548c92)
+https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/description/
+---
+
+![3](https://github.com/user-attachments/assets/1ff4355c-5cfc-4367-a6df-df3a6ac683ff)
