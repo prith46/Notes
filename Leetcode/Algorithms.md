@@ -1,4 +1,4 @@
-**2260\. Minimum Consecutive Cards to Pick Up**
+## **2260\. Minimum Consecutive Cards to Pick Up**
 
 You are given an integer array cards where cards\[i\] represents the **value** of the ith card. A pair of cards are **matching** if the cards have the **same** value.
 
@@ -23,4 +23,21 @@ https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/
 ## To find the cycle
 ![Untitled-2025-05-16-1833](https://github.com/user-attachments/assets/49fc4d8e-ce7e-4ed3-aa56-35984c3e755b)
 
+
+## **73\. Set Matrix Zeroes**
+
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+You must do it in place
+
+Link - https://leetcode.com/problems/set-matrix-zeroes/
+
+**Constraints:**
+
+*   m == matrix.length
+*   n == matrix\[0\].length 
+*   1 <= m, n <= 200    
+*   \-231 <= matrix\[i\]\[j\] <= 231 - 1    
+*   Could you devise a constant space solution?
+
+![Untitled-2025-05-16-1833](https://github.com/user-attachments/assets/e3b55603-0d1b-4e62-aedf-76200ff72cd5)
 
