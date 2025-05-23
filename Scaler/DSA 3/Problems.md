@@ -31,3 +31,17 @@ Output :
 Link - https://www.scaler.com/academy/mentee-dashboard/class/351637/homework/problems/4117/?navref=cl_pb_nv_tb
 
 ![1](https://github.com/user-attachments/assets/c3731a3f-0370-4f83-b4ee-e424217ab979)
+
+## **Generate Subsets**
+
+Given a set of distinct integers **A**, return all possible subsets that can be formed from the elements of array **A**.
+
+Input
+ A = [1, 2, 3]  
+
+Output
+
+  [   []   [1]   [1, 2]   [1, 2, 3]   [1, 3]   [2]   [2, 3]   [3]  ]   
+
+![image](https://github.com/user-attachments/assets/29a3b80e-cc05-4011-8dcf-2430a39b0a08)
+
