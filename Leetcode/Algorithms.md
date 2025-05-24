@@ -23,7 +23,7 @@ https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/
 ## To find the cycle
 ![Untitled-2025-05-16-1833](https://github.com/user-attachments/assets/49fc4d8e-ce7e-4ed3-aa56-35984c3e755b)
 
-
+---
 ## **73\. Set Matrix Zeroes**
 
 Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
@@ -41,3 +41,19 @@ Link - https://leetcode.com/problems/set-matrix-zeroes/
 
 ![Untitled-2025-05-16-1833](https://github.com/user-attachments/assets/e3b55603-0d1b-4e62-aedf-76200ff72cd5)
 
+---
+## **Letter Combinations of a Phone Number**
+
+Link - https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in **any order**.
+A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
+Input: digits = "23"  Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"] 
+Input: digits = ""  Output: []   
+Input: digits = "2"  Output: ["a","b","c"]  
+
+![image](https://github.com/user-attachments/assets/e2e03722-4342-4bf9-a00a-d0c345361119)
+
+
+---
