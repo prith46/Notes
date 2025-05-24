@@ -69,3 +69,16 @@ Input: nums = [0]  Output: [[],[0]]
 
 ![image](https://github.com/user-attachments/assets/29a3b80e-cc05-4011-8dcf-2430a39b0a08)
 ---
+
+## **90\. Subsets II**
+
+Link - https://leetcode.com/problems/subsets-ii/
+
+Given an integer array nums that may contain duplicates, return _all possible_ _subsets (the power set)_.
+The solution set **must not** contain duplicate subsets. Return the solution in **any order**.
+Input: nums = [1,2,2]  Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]  
+Input: nums = [0]  Output: [[],[0]]  
+
+![image](https://github.com/user-attachments/assets/1209dce4-49cc-48bd-bc7e-7b668eea980d)
+
+---
