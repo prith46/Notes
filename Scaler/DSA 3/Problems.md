@@ -45,3 +45,14 @@ Output
 
 ![image](https://github.com/user-attachments/assets/29a3b80e-cc05-4011-8dcf-2430a39b0a08)
 
+---
+
+## Prime Sum
+Link - https://www.scaler.com/academy/mentee-dashboard/class/351622/homework/problems/297/?navref=cl\_pb\_nv\_tb
+
+Given an even number **A** ( greater than 2 ), return two prime numbers whose sum will be equal to the given number.
+If there is more than one solution possible, return the lexicographically smaller solution.
+
+![image](https://github.com/user-attachments/assets/93f5e376-a76d-4059-9796-4db59ee67e96)
+
+---
