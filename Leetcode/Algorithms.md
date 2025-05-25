@@ -82,3 +82,16 @@ Input: nums = [0]  Output: [[],[0]]
 ![image](https://github.com/user-attachments/assets/1209dce4-49cc-48bd-bc7e-7b668eea980d)
 
 ---
+
+## **2131\. Longest Palindrome by Concatenating Two Letter Words**
+Link - https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/
+
+You are given an array of strings words. Each element of words consists of **two** lowercase English letters.
+Create the **longest possible palindrome** by selecting some elements from words and concatenating them in **any order**. Each element can be selected **at most once**.
+Return _the_ _**length**_ _of the longest palindrome that you can create_. If it is impossible to create any palindrome, return 0.
+
+Input: words = ["lc","cl","gg"]  Output: 6  
+
+![image](https://github.com/user-attachments/assets/ee674c6e-eefe-464e-9d44-bb47400362bc)
+
+---
