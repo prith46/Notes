@@ -56,3 +56,14 @@ If there is more than one solution possible, return the lexicographically smalle
 ![image](https://github.com/user-attachments/assets/93f5e376-a76d-4059-9796-4db59ee67e96)
 
 ---
+
+## **Consecutive Numbers**
+Link - https://www.scaler.com/academy/mentee-dashboard/class/351622/homework/problems/6707/?navref=cl_pb_nv_tb
+
+Return the number of ways it can be written as a **sum of consecutive positive** integers.
+A = 15
+The 4 ways are:   => [15]   => [7, 8]   => [4, 5, 6]    => [1, 2, 3, 4, 5]
+
+![image](https://github.com/user-attachments/assets/c7c5f842-eff2-43e1-925b-5a1960f7439f)
+
+---
