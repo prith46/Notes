@@ -106,3 +106,15 @@ Given an integer array nums sorted in **non-decreasing order**, remove some d
 ![image](https://github.com/user-attachments/assets/7629c204-c2b5-464c-a37d-196ea27814f9)
 
 ---
+
+## 75\. Sort Colors
+Link - https://leetcode.com/problems/sort-colors/
+
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+
+-- Input: nums = [2,0,2,1,1,0]  Output: [0,0,1,1,2,2]   
+-- Input: nums = [2,0,1]  Output: [0,1,2]   
+
+![image](https://github.com/user-attachments/assets/60910880-589c-485f-a54d-d8a2736545d0)
+
+ ---
