@@ -95,3 +95,14 @@ Input: words = ["lc","cl","gg"]  Output: 6
 ![image](https://github.com/user-attachments/assets/ee674c6e-eefe-464e-9d44-bb47400362bc)
 
 ---
+
+## 80\. Remove Duplicates from Sorted Array II
+Link - https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+
+Given an integer array nums sorted in **non-decreasing order**, remove some duplicates in-place such that each unique element appears **at most twice**. The **relative order** of the elements should be kept the **same**.
+-- Input: nums = \[1,1,1,2,2,3\]
+-- Output: 5, nums = \[1,1,2,2,3,\_\]
+
+![image](https://github.com/user-attachments/assets/7629c204-c2b5-464c-a37d-196ea27814f9)
+
+---
