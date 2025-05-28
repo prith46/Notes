@@ -37,4 +37,14 @@ private static int binarySearch(int[] a, int fromIndex, int toIndex, int key) {
 
 - Apply binary search on the matrix by treating it as a flattened array from index `0` to `m * n - 1`.  
 - Use `row = mid // n` to find which row the element is in, and `col = mid % n` to get its position within that row.
-  
+
+---
+### 📌 Topic: Converting `char[]` to `String` in Java
+
+- To convert a `char[]` to a `String` in Java, use the `String` constructor.
+- Syntax: `String result = new String(charArray);`
+
+**Example:**
+```java
+char[] str = {'H', 'e', 'l', 'l', 'o'};
+String result = new String(str);  // result = "Hello"
