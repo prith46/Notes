@@ -112,9 +112,23 @@ Link - https://leetcode.com/problems/sort-colors/
 
 Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
 
--- Input: nums = [2,0,2,1,1,0]  Output: [0,0,1,1,2,2]   
--- Input: nums = [2,0,1]  Output: [0,1,2]   
+Input: nums = [2,0,2,1,1,0]  Output: [0,0,1,1,2,2]   
+Input: nums = [2,0,1]  Output: [0,1,2]   
 
 ![image](https://github.com/user-attachments/assets/60910880-589c-485f-a54d-d8a2736545d0)
 
  ---
+
+ ## 40\. Combination Sum II
+Link - https://leetcode.com/problems/combination-sum-ii/
+
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.
+Each number in candidates may only be used **once** in the combination.
+**Note:** The solution set must not contain duplicate combinations.
+
+Input: candidates = [10,1,2,7,6,1,5], target = 8  
+Output:   [  [1,1,6],  [1,2,5],  [1,7],  [2,6]  ]  
+
+![image](https://github.com/user-attachments/assets/e5a36d72-2b66-4138-a920-eb236be6ae0f)
+
+---
