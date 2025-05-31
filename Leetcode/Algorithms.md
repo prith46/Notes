@@ -132,3 +132,13 @@ Output:   [  [1,1,6],  [1,2,5],  [1,7],  [2,6]  ]
 ![image](https://github.com/user-attachments/assets/e5a36d72-2b66-4138-a920-eb236be6ae0f)
 
 ---
+
+## 160\. Intersection of Two Linked Lists
+Link - https://leetcode.com/problems/intersection-of-two-linked-lists/
+
+Given the heads of two singly linked-lists headA and headB, return _the node at which the two lists intersect_. If the two linked lists have no intersection at all, return null.
+
+![image](https://github.com/user-attachments/assets/26e1eb87-20d3-46c3-8ff3-e6adc089cc6f)
+![image](https://github.com/user-attachments/assets/6e1ce7b3-f4b8-48d0-af84-5099695311a9)
+
+---
