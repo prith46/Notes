@@ -19,3 +19,10 @@
 
 ➡️ **Time Complexity:** `O(n)`  
 ➡️ **Space Complexity:** `O(1)`
+
+# Time and Space Complexity for Recursion
+
+**Time Complexity - O(Number of function calls × Time complexity per function call)**
+
+**Space Complexity - O(Maximum depth of recursion tree/stack × Space complexity per function call)**
+
