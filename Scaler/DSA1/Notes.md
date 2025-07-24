@@ -26,3 +26,6 @@
 
 **Space Complexity - O(Maximum depth of recursion tree/stack × Space complexity per function call)**
 
+## Sum of all subarrays 
+  → ( index + 1) \* ( array\_length - index ) \* A\[index\]
+
