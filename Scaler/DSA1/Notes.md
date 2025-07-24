@@ -29,3 +29,6 @@
 ## Sum of all subarrays 
   → ( index + 1) \* ( array\_length - index ) \* A\[index\]
 
+## Total number of Subarrays of length K
+  → K = N - K + 1
+
