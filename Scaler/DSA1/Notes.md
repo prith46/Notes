@@ -32,3 +32,4 @@
 ## Total number of Subarrays of length K
   → K = N - K + 1
 
+<img width="1771" height="957" alt="image" src="https://github.com/user-attachments/assets/18e4885c-616f-43fa-9655-4782911e0a8a" />
