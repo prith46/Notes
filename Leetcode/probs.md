@@ -9,3 +9,10 @@
 <img width="1637" height="1075" alt="image" src="https://github.com/user-attachments/assets/2f8c0093-0000-4082-bfa3-705a45a65210" />
 ### From - https://leetcode.com/problems/next-greater-numerically-balanced-number/?envType=daily-question&envId=2025-10-24/
 ---
+
+### 3370. Smallest Number With All Set Bits
+You are given a positive number n.
+Return the smallest number x greater than or equal to n, such that the binary representation of x contains only set bits
+
+https://leetcode.com/problems/smallest-number-with-all-set-bits/?envType=daily-question&envId=2025-10-29
+<img width="1588" height="524" alt="image" src="https://github.com/user-attachments/assets/007b0079-6381-4c62-8189-9570f210a5b7" />
