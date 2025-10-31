@@ -16,3 +16,20 @@ Return the smallest number x greater than or equal to n, such that the binary re
 
 https://leetcode.com/problems/smallest-number-with-all-set-bits/?envType=daily-question&envId=2025-10-29
 <img width="1588" height="524" alt="image" src="https://github.com/user-attachments/assets/007b0079-6381-4c62-8189-9570f210a5b7" />
+
+# 3289. The Two Sneaky Numbers of Digitville
+
+In the town of **Digitville**, there was a list of numbers `nums` containing integers from **0 to n−1**.  
+Each number was supposed to appear **exactly once** in the list. However, two mischievous numbers **appeared twice**, making the list longer than usual.
+As the town detective, your task is to **find these two sneaky numbers**.  
+Return an array of size **two** containing the two numbers (in any order).
+
+---
+`nums = [0,1,1,0]`
+`[0,1]`
+
+The numbers 0 and 1 each appear twice in the array.
+
+<img width="1582" height="759" alt="image" src="https://github.com/user-attachments/assets/51119f59-11d0-4bd0-9112-b285053419b0" />
+<img width="1686" height="532" alt="image" src="https://github.com/user-attachments/assets/51891004-6752-48ae-a05e-8efe59ad84eb" />
+
