@@ -32,4 +32,30 @@ The numbers 0 and 1 each appear twice in the array.
 
 <img width="1582" height="759" alt="image" src="https://github.com/user-attachments/assets/51119f59-11d0-4bd0-9112-b285053419b0" />
 <img width="1686" height="532" alt="image" src="https://github.com/user-attachments/assets/51891004-6752-48ae-a05e-8efe59ad84eb" />
+---
+
+# 717. 1-bit and 2-bit Characters
+We have two special characters:
+	• The first character can be represented by one bit 0.
+	• The second character can be represented by two bits (10 or 11).
+Given a binary array bits that ends with 0, return true if the last character must be a one-bit character.
+ 
+Example 1:
+Input: bits = [1,0,0]
+Output: true
+Explanation: The only way to decode it is two-bit character and one-bit character.
+So the last character is one-bit character.
+
+Example 2:
+Input: bits = [1,1,1,0]
+Output: false
+Explanation: The only way to decode it is two-bit character and two-bit character.
+So the last character is not one-bit character.
+
+From <https://leetcode.com/problems/1-bit-and-2-bit-characters/description/?envType=daily-question&envId=2025-11-18>
+
+<img width="1498" height="984" alt="image" src="https://github.com/user-attachments/assets/eae9c8b2-ad64-48d8-b347-23f422d71069" />
+---
+
+
 
