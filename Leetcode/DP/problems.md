@@ -99,3 +99,65 @@ class Solution {
     }
 }
 ```
+
+---
+
+### 518. Coin Change II
+
+You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
+
+Return the number of combinations that make up that amount. If that amount of money cannot be made up by any combination of the coins, return 0.
+
+You may assume that you have an infinite number of each kind of coin.
+
+The answer is guaranteed to fit into a signed 32-bit integer.
+
+Input: amount = 5, coins = [1,2,5]
+Output: 4
+-Explanation: there are four ways to make up the amount:
+-5=5
+-5=2+2+1
+-5=2+1+1+1
+-5=1+1+1+1+1
+
+### Algorithm :
+
+1. Start with the first coin and the full amount.
+2. If the amount becomes 0, count it as 1 valid way.
+3. If the amount becomes negative or we run out of coins, count it as 0 ways.
+4. At every coin index, make two choices:
+5. Use the current coin and reduce the amount by its value (stay on the same coin index because we can reuse it)
+6. Skip the current coin and move to the next coin index
+7. Add both counts and return the total.
+8. Store results based on (amount, coin index) so repeated states return stored values instead of recalculating.
+
+```
+   class Solution {
+    public int change(int amount, int[] coins) {
+        int[][] dp = new int[amount+1][coins.length];
+        for(int i=0; i<=amount; i++)
+            Arrays.fill(dp[i], -1);
+        return knapsack(amount, coins, dp, 0);
+    }
+
+    public int knapsack(int amount, int[] A, int[][] dp, int index) {
+        if (amount == 0)
+            return 1;
+
+        if (amount < 0 || index == A.length)
+            return 0;
+
+        if (dp[amount][index] != -1)
+            return dp[amount][index];
+
+        int select = knapsack(amount-A[index], A, dp, index);
+        int reject = knapsack(amount, A, dp, index+1);
+        dp[amount][index] = select + reject;
+
+        return dp[amount][index];
+    }
+}
+```
+
+
+
